@@ -58,7 +58,7 @@ public class Schwerter {
     // 2) "Client only" events that are not executed on a dedicated server.
     // If you aren't careful to split these into two parts, your mod will crash when installed on a dedicated server
     // It doesn't matter if your client-only code is never actually called; simply referencing the class is often enough to
-    //   cause a crash.  I have also heard that the behaviour depends on the particular implementation of the Java Virtual
+    //   cause a crash.  I have also heard that the behavior depends on the particular implementation of the Java Virtual
     //   Machine (for example Windows vs Linux), so you can't necessarily rely on testing to be sure it works.
     //   See the comments in DistExecutor class for more context.
     //  This is the reason that the ClientOnlyEvents are split into a completely-separate class.

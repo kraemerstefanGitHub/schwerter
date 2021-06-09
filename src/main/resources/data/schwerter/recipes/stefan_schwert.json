@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern":
+    [
+        "  a",
+        "xx ",
+        "xx "
+    ],
+    "key":
+    {
+        "x":
+        {
+            "tag": "minecraft:wool"
+        },
+        "a":
+        {
+            "item": "minecraft:coal_block"
+        }
+    },
+    "result":
+    {
+        "item": "schwerter:stefan_schwert",
+        "count": 1
+    }
+}
