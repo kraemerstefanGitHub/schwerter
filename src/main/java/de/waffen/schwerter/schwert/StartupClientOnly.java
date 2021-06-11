@@ -4,9 +4,9 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 
 /**
- * User: The Grey Ghost
- * Date: 24/12/2014
- *
+ * User: Grothendieck
+ * Date: 11/06/2021
+ * 
  *  No client-only events are needed for this example
  *  See MinecraftByExample class for more information
  */
