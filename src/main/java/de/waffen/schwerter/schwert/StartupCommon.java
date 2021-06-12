@@ -12,12 +12,12 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
  */
 public class StartupCommon
 {
-  public static StefansSchwert schwert;  // this holds the unique instance of your block
+  public static ConnorsWindSchwert schwert;  // this holds the unique instance of your block
 
   @SubscribeEvent
   public static void onItemsRegistration(final RegistryEvent.Register<Item> itemRegisterEvent) {
-	schwert = new StefansSchwert();
-	schwert.setRegistryName("stefan_schwert");
+	schwert = new ConnorsWindSchwert();
+	schwert.setRegistryName("connor_wind_schwert");
     itemRegisterEvent.getRegistry().register(schwert);
   }
 

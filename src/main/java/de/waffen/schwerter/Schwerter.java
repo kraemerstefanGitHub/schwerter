@@ -84,7 +84,7 @@ public class Schwerter {
   {
     event.enqueueWork(() ->
     {
-      ItemModelsProperties.registerProperty(de.waffen.schwerter.schwert.StefansSchwert, 
+      ItemModelsProperties.registerProperty(de.waffen.schwerter.schwert.ConnorWindSchwert, 
         new ResourceLocation(Schwerter.MODID, "pulling"), (stack, world, living) -> {
           return living != null && living.isHandActive() && living.getActiveItemStack() == stack ? 1.0F : 0.0F;
         });

@@ -36,7 +36,7 @@ authors="Connor und Stefan" #optional
 description='''
 In diesem Mod gibt es neue Schwerter:
 
- * Stefans Schwert
+ * Connors Windschwert
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.schwerter]] #optional
